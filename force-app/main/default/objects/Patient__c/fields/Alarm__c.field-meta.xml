@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alarm__c</fullName>
+    <externalId>false</externalId>
+    <label>Alarm</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alert: Fluid Infusion Limit Reached</fullName>
+                <default>false</default>
+                <label>Alert: Fluid Infusion Limit Reached</label>
+            </value>
+            <value>
+                <fullName>Alert: Maximum Stop Time Reached</fullName>
+                <default>false</default>
+                <label>Alert: Maximum Stop Time Reached</label>
+            </value>
+            <value>
+                <fullName>Alert: Rinseback Volume Reached</fullName>
+                <default>false</default>
+                <label>Alert: Rinseback Volume Reached</label>
+            </value>
+            <value>
+                <fullName>Alert: Water Sample Not Taken</fullName>
+                <default>false</default>
+                <label>Alert: Water Sample Not Taken</label>
+            </value>
+            <value>
+                <fullName>Warning: Access Disconnect</fullName>
+                <default>false</default>
+                <label>Warning: Access Disconnect</label>
+            </value>
+            <value>
+                <fullName>Alert: Air Detected During Prime</fullName>
+                <default>false</default>
+                <label>Alert: Air Detected During Prime</label>
+            </value>
+            <value>
+                <fullName>Alert: Air in Blood - Arterial</fullName>
+                <default>false</default>
+                <label>Alert: Air in Blood - Arterial</label>
+            </value>
+            <value>
+                <fullName>Alert: Air in Blood - Venous</fullName>
+                <default>false</default>
+                <label>Alert: Air in Blood - Venous</label>
+            </value>
+            <value>
+                <fullName>Alert: Arterial and Venous Lines Switched</fullName>
+                <default>false</default>
+                <label>Alert: Arterial and Venous Lines Switched</label>
+            </value>
+            <value>
+                <fullName>Alert: Auto-Clamp Door Open</fullName>
+                <default>false</default>
+                <label>Alert: Auto-Clamp Door Open</label>
+            </value>
+            <value>
+                <fullName>Alert: Batteries Need Replacement</fullName>
+                <default>false</default>
+                <label>Alert: Batteries Need Replacement</label>
+            </value>
+            <value>
+                <fullName>Alert: Blood Cassette Air Leak</fullName>
+                <default>false</default>
+                <label>Alert: Blood Cassette Air Leak</label>
+            </value>
+            <value>
+                <fullName>Alert: Blood Circuit Flow Restriction</fullName>
+                <default>false</default>
+                <label>Alert: Blood Circuit Flow Restriction</label>
+            </value>
+            <value>
+                <fullName>Alert: Blood Expired</fullName>
+                <default>false</default>
+                <label>Alert: Blood Expired</label>
+            </value>
+            <value>
+                <fullName>Alert: Blood Tubing Not in Disinfection Ports</fullName>
+                <default>false</default>
+                <label>Alert: Blood Tubing Not in Disinfection Ports</label>
+            </value>
+            <value>
+                <fullName>Alert: BTS Draining Failure</fullName>
+                <default>false</default>
+                <label>Alert: BTS Draining Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: BTS Install Failure</fullName>
+                <default>false</default>
+                <label>Alert: BTS Install Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Check Concentrates</fullName>
+                <default>false</default>
+                <label>Alert: Check Concentrates</label>
+            </value>
+            <value>
+                <fullName>Alert: Chemical Sample Failure</fullName>
+                <default>false</default>
+                <label>Alert: Chemical Sample Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Chlorine Test Failure</fullName>
+                <default>false</default>
+                <label>Alert: Chlorine Test Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Citric Acid Clean Failure</fullName>
+                <default>false</default>
+                <label>Alert: Citric Acid Clean Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Components Require Replacement</fullName>
+                <default>false</default>
+                <label>Alert: Components Require Replacement</label>
+            </value>
+            <value>
+                <fullName>Alert: Concentrates Connected</fullName>
+                <default>false</default>
+                <label>Alert: Concentrates Connected</label>
+            </value>
+            <value>
+                <fullName>Alert: Concentrates Not Connected</fullName>
+                <default>false</default>
+                <label>Alert: Concentrates Not Connected</label>
+            </value>
+            <value>
+                <fullName>Alert: Connection Time Limit Reached</fullName>
+                <default>false</default>
+                <label>Alert: Connection Time Limit Reached</label>
+            </value>
+            <value>
+                <fullName>Alert: Dialysate Expired</fullName>
+                <default>false</default>
+                <label>Alert: Dialysate Expired</label>
+            </value>
+            <value>
+                <fullName>Alert: Dialysate Set Failure</fullName>
+                <default>false</default>
+                <label>Alert: Dialysate Set Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Disinfect Failure</fullName>
+                <default>false</default>
+                <label>Alert: Disinfect Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Doors Closed</fullName>
+                <default>false</default>
+                <label>Alert: Doors Closed</label>
+            </value>
+            <value>
+                <fullName>Alert: Doors Closed Override Failure</fullName>
+                <default>false</default>
+                <label>Alert: Doors Closed Override Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Doors Open</fullName>
+                <default>false</default>
+                <label>Alert: Doors Open</label>
+            </value>
+            <value>
+                <fullName>Alert: DTS Failure</fullName>
+                <default>false</default>
+                <label>Alert: DTS Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Fluid Leak</fullName>
+                <default>false</default>
+                <label>Alert: Fluid Leak</label>
+            </value>
+            <value>
+                <fullName>Alert: Fluid Paths Expired</fullName>
+                <default>false</default>
+                <label>Alert: Fluid Paths Expired</label>
+            </value>
+            <value>
+                <fullName>Alert: Front Panel Test Failure</fullName>
+                <default>false</default>
+                <label>Alert: Front Panel Test Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Heparin Bottle is Empty or Missing</fullName>
+                <default>false</default>
+                <label>Alert: Heparin Bottle is Empty or Missing</label>
+            </value>
+            <value>
+                <fullName>Alert: Heparin Error</fullName>
+                <default>false</default>
+                <label>Alert: Heparin Error</label>
+            </value>
+            <value>
+                <fullName>Alert: Insufficient Blood Flow</fullName>
+                <default>false</default>
+                <label>Alert: Insufficient Blood Flow</label>
+            </value>
+            <value>
+                <fullName>Alert: Low Blood Flow</fullName>
+                <default>false</default>
+                <label>Alert: Low Blood Flow</label>
+            </value>
+            <value>
+                <fullName>Alert: Low Concentrate Flow</fullName>
+                <default>false</default>
+                <label>Alert: Low Concentrate Flow</label>
+            </value>
+            <value>
+                <fullName>Alert: Low Concentrate Flow - Mix Error</fullName>
+                <default>false</default>
+                <label>Alert: Low Concentrate Flow - Mix Error</label>
+            </value>
+            <value>
+                <fullName>Alert: Low Dialysate Flow</fullName>
+                <default>false</default>
+                <label>Alert: Low Dialysate Flow</label>
+            </value>
+            <value>
+                <fullName>Alert: Micro Dialysate Sample Failure</fullName>
+                <default>false</default>
+                <label>Alert: Micro Dialysate Sample Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: No Blood Flow</fullName>
+                <default>false</default>
+                <label>Alert: No Blood Flow</label>
+            </value>
+            <value>
+                <fullName>Alert: No Dialysate Flow</fullName>
+                <default>false</default>
+                <label>Alert: No Dialysate Flow</label>
+            </value>
+            <value>
+                <fullName>Alert: No Fluid Flow</fullName>
+                <default>false</default>
+                <label>Alert: No Fluid Flow</label>
+            </value>
+            <value>
+                <fullName>Alert: No Inlet Water</fullName>
+                <default>false</default>
+                <label>Alert: No Inlet Water</label>
+            </value>
+            <value>
+                <fullName>Alert: Operational Water Failure</fullName>
+                <default>false</default>
+                <label>Alert: Operational Water Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Power Recovery Start Recycle</fullName>
+                <default>false</default>
+                <label>Alert: Power Recovery Start Recycle</label>
+            </value>
+            <value>
+                <fullName>Alert: Priming Failure</fullName>
+                <default>false</default>
+                <label>Alert: Priming Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Pump Module Failure</fullName>
+                <default>false</default>
+                <label>Alert: Pump Module Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Residual Blood Expired</fullName>
+                <default>false</default>
+                <label>Alert: Residual Blood Expired</label>
+            </value>
+            <value>
+                <fullName>Alert: Sample Failure</fullName>
+                <default>false</default>
+                <label>Alert: Sample Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - ADS System</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - ADS System</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - Dialysate Set</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - Dialysate Set</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - Door Switch</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - Door Switch</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - Electronics</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - Electronics</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - Fluid Leak Sensor</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - Fluid Leak Sensor</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - Pressure System</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - Pressure System</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - Temp Sensor</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - Temp Sensor</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure - Ultrafilter</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure - Ultrafilter</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure- Auto-Clamp</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure- Auto-Clamp</label>
+            </value>
+            <value>
+                <fullName>Alert: Self Test Failure- Auto-Clamp Door</fullName>
+                <default>false</default>
+                <label>Alert: Self Test Failure- Auto-Clamp Door</label>
+            </value>
+            <value>
+                <fullName>Alert: Startup Process Failure</fullName>
+                <default>false</default>
+                <label>Alert: Startup Process Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: System Error</fullName>
+                <default>false</default>
+                <label>Alert: System Error</label>
+            </value>
+            <value>
+                <fullName>Alert: System Temp Maximum</fullName>
+                <default>false</default>
+                <label>Alert: System Temp Maximum</label>
+            </value>
+            <value>
+                <fullName>Alert: System Temperature High</fullName>
+                <default>false</default>
+                <label>Alert: System Temperature High</label>
+            </value>
+            <value>
+                <fullName>Alert: Water Device Failsafe</fullName>
+                <default>false</default>
+                <label>Alert: Water Device Failsafe</label>
+            </value>
+            <value>
+                <fullName>Alert: Water Priming Failure</fullName>
+                <default>false</default>
+                <label>Alert: Water Priming Failure</label>
+            </value>
+            <value>
+                <fullName>Alert: Water Temperature Maximum</fullName>
+                <default>false</default>
+                <label>Alert: Water Temperature Maximum</label>
+            </value>
+            <value>
+                <fullName>Caution: Blood Expired</fullName>
+                <default>false</default>
+                <label>Caution: Blood Expired</label>
+            </value>
+            <value>
+                <fullName>Caution: Fluid Leak</fullName>
+                <default>false</default>
+                <label>Caution: Fluid Leak</label>
+            </value>
+            <value>
+                <fullName>Caution: Power Recovery Rinseback</fullName>
+                <default>false</default>
+                <label>Caution: Power Recovery Rinseback</label>
+            </value>
+            <value>
+                <fullName>Caution: System Error</fullName>
+                <default>false</default>
+                <label>Caution: System Error</label>
+            </value>
+            <value>
+                <fullName>Caution: System Error - No Rinse</fullName>
+                <default>false</default>
+                <label>Caution: System Error - No Rinse</label>
+            </value>
+            <value>
+                <fullName>Caution: UF System Error</fullName>
+                <default>false</default>
+                <label>Caution: UF System Error</label>
+            </value>
+            <value>
+                <fullName>Caution: User Initiated Shutdown</fullName>
+                <default>false</default>
+                <label>Caution: User Initiated Shutdown</label>
+            </value>
+            <value>
+                <fullName>Caution: Water Operation Error</fullName>
+                <default>false</default>
+                <label>Caution: Water Operation Error</label>
+            </value>
+            <value>
+                <fullName>Dialysate Flow Reduced</fullName>
+                <default>false</default>
+                <label>Dialysate Flow Reduced</label>
+            </value>
+            <value>
+                <fullName>Heparin Stop Time Extended</fullName>
+                <default>false</default>
+                <label>Heparin Stop Time Extended</label>
+            </value>
+            <value>
+                <fullName>Heparin Stop Time Reduced</fullName>
+                <default>false</default>
+                <label>Heparin Stop Time Reduced</label>
+            </value>
+            <value>
+                <fullName>Low Blood Flow</fullName>
+                <default>false</default>
+                <label>Low Blood Flow</label>
+            </value>
+            <value>
+                <fullName>Low Dialysate Flow</fullName>
+                <default>false</default>
+                <label>Low Dialysate Flow</label>
+            </value>
+            <value>
+                <fullName>UF Stopped</fullName>
+                <default>false</default>
+                <label>UF Stopped</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Fluid Infusion Limit Reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Maximum Stop Time Reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Rinseback Volume Reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Water Sample Not Taken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Warning: Access Disconnect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Air Detected During Prime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Air in Blood - Arterial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Air in Blood - Venous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Arterial and Venous Lines Switched</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Auto-Clamp Door Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Batteries Need Replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Blood Cassette Air Leak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Blood Circuit Flow Restriction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Blood Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Blood Tubing Not in Disinfection Ports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: BTS Draining Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: BTS Install Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Check Concentrates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Chemical Sample Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Chlorine Test Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Citric Acid Clean Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Components Require Replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Concentrates Connected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Concentrates Not Connected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Connection Time Limit Reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Dialysate Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Dialysate Set Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Disinfect Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Doors Closed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Doors Closed Override Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Doors Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: DTS Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Fluid Leak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Fluid Paths Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Front Panel Test Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Heparin Bottle is Empty or Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Heparin Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Insufficient Blood Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Low Blood Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Low Concentrate Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Low Concentrate Flow - Mix Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Low Dialysate Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Micro Dialysate Sample Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: No Blood Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: No Dialysate Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: No Fluid Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: No Inlet Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Operational Water Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Power Recovery Start Recycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Priming Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Pump Module Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Residual Blood Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Sample Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - ADS System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - Dialysate Set</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - Door Switch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - Electronics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - Fluid Leak Sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - Pressure System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - Temp Sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure - Ultrafilter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure- Auto-Clamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Self Test Failure- Auto-Clamp Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Startup Process Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: System Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: System Temp Maximum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: System Temperature High</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Water Device Failsafe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Water Priming Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Alert: Water Temperature Maximum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: Blood Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: Fluid Leak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: Power Recovery Rinseback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: System Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: System Error - No Rinse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: UF System Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: User Initiated Shutdown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Caution: Water Operation Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Dialysate Flow Reduced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Heparin Stop Time Extended</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Heparin Stop Time Reduced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Low Blood Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>Low Dialysate Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Good</controllingFieldValue>
+            <valueName>UF Stopped</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
