@@ -21,6 +21,10 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+    <member>Account</members>
+    <name>CustomObject</name>
+    </types>
+    <types>
         <members>*</members>
         <name>AuraDefinitionBundle</name>
     </types>
