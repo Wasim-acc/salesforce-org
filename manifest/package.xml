@@ -21,7 +21,7 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-    <member>Account</members>
+    <member>*</members>
     <name>CustomObject</name>
     </types>
     <types>
